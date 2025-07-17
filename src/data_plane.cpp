@@ -1,7 +1,3 @@
-#include <data_plane.h>
-
-// data_plane::data_plane(control_plane &control_plane) : _control_plane(control_plane) {}
-
 #include <bearer.h>
 #include <control_plane.h>
 #include <data_plane.h>

@@ -32,7 +32,6 @@ int main() {
 
     simple_data_plane dp(cp);
 
-    // Сымитируем пакеты
     dp.handle_uplink(bearer->get_dp_teid(), {1, 2, 3});
     dp.handle_downlink(pdn->get_ue_ip_addr(), {4, 5, 6});
 

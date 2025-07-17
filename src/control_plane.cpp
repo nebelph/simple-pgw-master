@@ -63,7 +63,6 @@ void control_plane::delete_pdn_connection(uint32_t cp_teid) {
         auto pdn = it->second;
         _pdns_by_ue_ip_addr.erase(pdn->get_ue_ip_addr());
         _pdns.erase(it);
-        // Bearers удаляются только из мапы PDN, глобальный _bearers остаётся
     }
 }
 
